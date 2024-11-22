@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sabit tema renkleri */
+:root {
+  --background: #ffffff; /* Beyaz arka plan */
+  --foreground: #171717; /* Siyah metin rengi */
+}
+
+/* Body stili */
+body {
+  @apply bg-background text-foreground font-sans; /* Tailwind sınıflarıyla renkler ve fontlar */
+  margin: 0; /* Tarayıcı boşluklarını sıfırlar */
+  min-height: 100vh; /* Tam ekran yükseklik */
+  line-height: 1.5; /* Okunabilirlik için satır yüksekliği */
+}
